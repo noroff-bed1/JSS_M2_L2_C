@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <p>Select room</p>
+    <ul>
+    <%rooms.forEach(function(room){ %>
+      <a href="/<%-room%>"><%- room %></a>
+    <% }); %>
+  </ul>
+  </body>
+</html>
